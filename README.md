@@ -63,7 +63,47 @@ Leave out `[dev]` if you only want to play. `deactivate` leaves the environment.
 
 ## ▶️ Run
 
-The game is not built yet (gateway MIL-003); this section is completed with it.
+Play a game of Tic Tac Toe in the terminal. Two players share the keyboard; `X` starts and the cells are numbered 1 to 9:
+
+```bash
+python -m tic_tac_toe
+```
+
+After the install, the command `tic-tac-toe` does the same. The game needs no package from the internet; only the Python standard library is used.
+
+The functions of the assignment are available from the package:
+
+```python
+from tic_tac_toe import check_winner, is_board_full, play_game, print_board
+```
+
+| Function | What it does |
+| --- | --- |
+| `print_board(board)` | Draws the board; an empty cell shows its number |
+| `check_winner(board, mark)` | Tells whether the mark has a row, a column or a diagonal |
+| `is_board_full(board)` | Tells whether no cell is empty, so a game without a winner is a draw |
+| `play_game()` | Plays games on the terminal until the players say no to another game |
+
+A game that `X` wins (the moves are 1, 4, 2, 5 and 3):
+
+```text
+ 1 | 2 | 3
+---+---+---
+ 4 | 5 | 6
+---+---+---
+ 7 | 8 | 9
+Player X, choose a cell (1-9): 1
+...
+ X | X | X
+---+---+---
+ O | O | 6
+---+---+---
+ 7 | 8 | 9
+Player X wins!
+Play again? (y/n): n
+```
+
+A move that is not allowed (a taken cell, a number outside 1 to 9, or something that is not a number) is refused with the reason, and the same player is asked again. Press `Ctrl+C` or end the input to stop at any time.
 
 ## 🧪 Tests
 
