@@ -8,6 +8,7 @@ Day 84 of Udemy's *100 Days of Code: The Complete Python Pro Bootcamp*: a text-b
 - [Requirements](#-requirements)
 - [Setup](#-setup)
 - [Run](#-run)
+- [The four steps](#-the-four-steps)
 - [Tests](#-tests)
 - [License](#-license)
 - [Links](#-links)
@@ -22,7 +23,7 @@ The assignment is to build a text-based version of Tic Tac Toe. This repository 
 | `src/` | The game, in the layers `domain`, `application` and `presentation` of the design |
 | `tests/` | Tests that follow the use case and the operation contract |
 | `docs/` | Project documents, the use case and its design (`docs/use-cases/uc-001/`, `docs/dcd.md`) and the wiki sources (`docs/wiki/`) |
-| `scripts/` | `scan.sh`, the opengrep scan |
+| `scripts/` | `scan.sh` (the opengrep scan), `make_screenshots.py` (the screenshots below) and `scripted_play.py` (plays a game from the command line) |
 | `framework/` | The SQA and QC framework (a git submodule) that the project documents follow |
 | `Doxyfile` | The Doxygen configuration; the source uses Doxygen comments |
 | `.editorconfig` | The editor settings of the framework baseline |
@@ -104,6 +105,40 @@ Play again? (y/n): n
 ```
 
 A move that is not allowed (a taken cell, a number outside 1 to 9, or something that is not a number) is refused with the reason, and the same player is asked again. Press `Ctrl+C` or end the input to stop at any time.
+
+## 🪜 The four steps
+
+The assignment grows in four steps. Each step below says in words what it builds, with a screenshot of the program's own output; the screenshots are made by `scripts/make_screenshots.py` in a Docker container, so they come from the code in this repository.
+
+### Step 1: Draw the board
+
+A board is nine cells that hold a mark or are empty. `print_board(board)` draws three rows of three cells with lines between them. An empty cell shows its number, so a player sees which number to type.
+
+![Step 1: Draw the board](docs/images/step-1-draw-the-board.png)
+
+### Step 2: Take a turn
+
+The player whose turn it is types the number of a cell. The game puts the player's mark there and draws the board again. A choice that is not allowed (not a number, outside 1 to 9, or a cell that is taken) is refused with the reason, and the same player is asked again.
+
+![Step 2: Take a turn](docs/images/step-2-take-a-turn.png)
+
+### Step 3: Find the winner or a draw
+
+After each move the game asks `check_winner(board, mark)` whether the mark has a row, a column or a diagonal. If not, `is_board_full(board)` tells whether the game is a draw. Otherwise the other player is next.
+
+![Step 3: Find the winner or a draw](docs/images/step-3-find-the-winner.png)
+
+### Step 4: Play again
+
+`play_game()` wraps the game in a loop. After the result it asks whether to play again; `y` or `yes` starts a game on an empty board and any other answer ends the program.
+
+![Step 4: Play again](docs/images/step-4-play-again.png)
+
+To make the screenshots again, start Docker and run:
+
+```bash
+python scripts/make_screenshots.py
+```
 
 ## 🧪 Tests
 
