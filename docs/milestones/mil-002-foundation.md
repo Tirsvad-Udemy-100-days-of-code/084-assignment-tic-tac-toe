@@ -11,7 +11,7 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-11-19 | Deprecated | Jens Tirsvad Nielsen | S01 | Initial version<br>Reviewed in RC-005: Go | [b31f4b3] |
+| 2026-11-19 | Deprecated | Jens Tirsvad Nielsen | S01 | Initial version<br>Reviewed in RC-020: Go | [b31f4b3] |
 | 2026-11-19 | Accepted | Jens Tirsvad Nielsen | S01 | Go/No-Go criterion 9 names the files the framework supplies and the prescribed ignore line<br>Reviewed in RC-020: Go | [c7e3d42] |
 
 ---
