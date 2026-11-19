@@ -9,7 +9,7 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-11-19 | Accepted | Jens Tirsvad Nielsen | S01 | Initial review record; verdict Go-with-conditions (autonomous, not independent) | pending |
+| 2026-11-19 | Accepted | Jens Tirsvad Nielsen | S01 | Initial review record; verdict Go-with-conditions (autonomous, not independent) | [f014079] |
 
 ---
 
@@ -76,3 +76,4 @@ Go-with-conditions — Mandatory criterion 14 and criteria 3, 5 and 9 of [QC-LAN
 [QC-LANG-001]: ../../../framework/qc/artifacts/qc-language-domain.md
 [QC-WIKI-001]: ../../../framework/qc/artifacts/qc-wiki.md
 [WIKI]: ../../wiki/Home.md
+[f014079]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/084-assignment-tic-tac-toe/commit/f01407984492ea93f20ba7951af6f4d142c87da4

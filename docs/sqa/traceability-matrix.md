@@ -9,7 +9,7 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-11-19 | Accepted | Jens Tirsvad Nielsen | S01 | Initial version<br>No checklist exists for the matrix; accepted by S01 (autonomous, not independent) | pending |
+| 2026-11-19 | Accepted | Jens Tirsvad Nielsen | S01 | Initial version<br>No checklist exists for the matrix; accepted by S01 (autonomous, not independent) | [f014079] |
 
 ---
 
@@ -119,3 +119,4 @@ updated whenever an artifact instance is created or reviewed.
 [RC-022]: ./reviews/rc-022-readme.md
 [RC-023]: ./reviews/rc-023-mil-004-scripts.md
 [RC-024]: ./reviews/rc-024-wiki.md
+[f014079]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/084-assignment-tic-tac-toe/commit/f01407984492ea93f20ba7951af6f4d142c87da4
