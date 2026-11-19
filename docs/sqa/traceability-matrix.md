@@ -45,16 +45,16 @@ updated whenever an artifact instance is created or reviewed.
 | Source code (`src/`, `tests/`) | Source code | - | - | [DCD-001], [ADR-0001], [ADR-0002], [MIL-003] | README, WIKI | [RC-021] |
 | Scripts (`scripts/`) | Source code | - | - | [MIL-004] | README, WIKI | [RC-023] |
 | README | Documentation | en | it | [MIL-004], [DICT-001] | WIKI | [RC-022] |
-| WIKI (`docs/wiki/`) | Wiki | en, da, ms | it | [MIL-005], README, [DICT-001] | - | [RC-024] |
+| WIKI (`docs/wiki/`) | Wiki | en, da, ms | it | [MIL-005], README, [DICT-001] | - | [RC-024], [RC-025] |
 | [TM-001] | Traceability Matrix | - | - | [BC-001] | - | - |
-| RC-001 to RC-024 | SQA Review Record | - | - | the reviewed instance and its checklist | - | - |
+| RC-001 to RC-025 | SQA Review Record | - | - | the reviewed instance and its checklist | - | - |
 
 ## Concern Coverage
 
 | Concern (CN-ID) | Views that answer it | Decisions (ADR) | Quality check (TP) | Status |
 | --- | --- | --- | --- | --- |
 | CN-001 | [UC-001], [OC-001], [SD-001], [DCD-001] | [ADR-0001] | none; the tests in `tests/` and the code review [RC-021] | Covered |
-| CN-002 | [PP-001], [MIL-001], [MIL-002], [MIL-003], [MIL-004], [MIL-005] | - | none; the review records [RC-001] to [RC-024] | Covered |
+| CN-002 | [PP-001], [MIL-001], [MIL-002], [MIL-003], [MIL-004], [MIL-005] | - | none; the review records [RC-001] to [RC-025] | Covered |
 | CN-003 | README, [MIL-004] | - | none; [RC-022] and `framework/scripts/check-readme.sh` | Covered |
 | CN-004 | [DCD-001], source code | - | none; [RC-021] (criterion 10) and the tests | Covered |
 | CN-005 | README, WIKI | - | none; [RC-022], [RC-024] | Covered |
@@ -72,7 +72,7 @@ updated whenever an artifact instance is created or reviewed.
 - No Test Plan (`TP`) exists: the quality checks of the concerns are the tests of the project and the review records. This is a deliberate gap in the artifact set, not in the concerns.
 - The type `Documentation` (README) and `Wiki` have no artifact ID; they are listed by name and reviewed in [RC-022] and [RC-024].
 - RC-005 was deleted after the full re-review [RC-020] superseded it.
-- Criterion 14 of [RC-024] and its Danish and Malay language criteria are open; they are listed in its action items.
+- Criterion 14 of [RC-024] is closed by [RC-025]; the Danish and Malay language criteria (3, 5 and 9 of QC-LANG-001) are still open and are listed in the action items of both records.
 
 ---
 
@@ -119,4 +119,5 @@ updated whenever an artifact instance is created or reviewed.
 [RC-022]: ./reviews/rc-022-readme.md
 [RC-023]: ./reviews/rc-023-mil-004-scripts.md
 [RC-024]: ./reviews/rc-024-wiki.md
+[RC-025]: ./reviews/rc-025-wiki-published.md
 [f014079]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/084-assignment-tic-tac-toe/commit/f01407984492ea93f20ba7951af6f4d142c87da4
