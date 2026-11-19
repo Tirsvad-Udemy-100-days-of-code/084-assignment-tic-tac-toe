@@ -11,7 +11,8 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-11-19 | Accepted | Jens Tirsvad Nielsen | S01 | Initial version<br>Reviewed in RC-005: Go | [b31f4b3] |
+| 2026-11-19 | Deprecated | Jens Tirsvad Nielsen | S01 | Initial version<br>Reviewed in RC-005: Go | [b31f4b3] |
+| 2026-11-19 | Accepted | Jens Tirsvad Nielsen | S01 | Go/No-Go criterion 9 names the files the framework supplies and the prescribed ignore line<br>Reviewed in RC-020: Go | pending |
 
 ---
 
@@ -35,7 +36,7 @@ A repository with `pyproject.toml`, a Python `.gitignore`, `.editorconfig`, `.en
 | 6 | The repository has a description and at least five topics on the git host | Both set | Either missing |
 | 7 | The README skeleton documents creating and using `.venv` and `python -m pip install --upgrade pip` for Linux and Windows | Both present | Either missing |
 | 8 | No Python file exists under `src/` or `tests/`; each folder holds only a `.gitkeep` placeholder | No `.py` file | Any `.py` file |
-| 9 | No file of the repository names or credits an automated assistant | 0 matches | Any match |
+| 9 | No file written by this project (outside `AGENTS.md`, `.agents/`, `.claude/` and `framework/`, which the framework supplies) names or credits an automated assistant; the one allowed match is the ignore line `/docs/ai-prompts/`, the path the framework prescribes for the prompt log | 0 other matches | Any other match |
 
 ## Dependencies
 
