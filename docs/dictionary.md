@@ -11,7 +11,7 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-11-19 | Accepted | Jens Tirsvad Nielsen | S01 | Initial version<br>Reviewed in RC-013: Go | pending |
+| 2026-11-19 | Accepted | Jens Tirsvad Nielsen | S01 | Initial version<br>Reviewed in RC-013: Go | [b31f4b3] |
 
 ---
 
@@ -44,3 +44,4 @@ Maps each Product Owner (PO) term to its professional IT term. PO language: Engl
 [SA-001]: ./stakeholder-analysis.md
 [DM-001]: ./domain-model.md
 [UCD-001]: ./use-case-diagram.md
+[b31f4b3]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/084-assignment-tic-tac-toe/commit/b31f4b369e5e2228605a7241d1d616a68a5108ce

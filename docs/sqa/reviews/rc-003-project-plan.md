@@ -9,7 +9,7 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-11-19 | Accepted | Jens Tirsvad Nielsen | S01 | Initial review record; verdict Go (autonomous, not independent) | pending |
+| 2026-11-19 | Accepted | Jens Tirsvad Nielsen | S01 | Initial review record; verdict Go (autonomous, not independent) | [b31f4b3] |
 
 ---
 
@@ -74,3 +74,4 @@ Go — every Mandatory criterion of [QC-PP-001] and [QC-LANG-001] passes or does
 [PP-001]: ../../project-plan.md
 [QC-LANG-001]: ../../../framework/qc/artifacts/qc-language-domain.md
 [QC-PP-001]: ../../../framework/qc/artifacts/qc-project-plan.md
+[b31f4b3]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/084-assignment-tic-tac-toe/commit/b31f4b369e5e2228605a7241d1d616a68a5108ce

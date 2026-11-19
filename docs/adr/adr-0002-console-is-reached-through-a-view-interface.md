@@ -9,7 +9,7 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-11-19 | Accepted | Jens Tirsvad Nielsen | S01 | Initial version<br>Reviewed in RC-019: Go | pending |
+| 2026-11-19 | Accepted | Jens Tirsvad Nielsen | S01 | Initial version<br>Reviewed in RC-019: Go | [b31f4b3] |
 
 ---
 
@@ -45,3 +45,4 @@ The use case `GameUseCase` talks to the Players only through the interface `Game
 [UC-001]: ../use-cases/uc-001/uc.md
 [SD-001]: ../use-cases/uc-001/sd.md
 [DCD-001]: ../dcd.md
+[b31f4b3]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/084-assignment-tic-tac-toe/commit/b31f4b369e5e2228605a7241d1d616a68a5108ce

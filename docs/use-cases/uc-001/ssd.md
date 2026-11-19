@@ -11,7 +11,7 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-11-19 | Accepted | Jens Tirsvad Nielsen | S01 | Initial version<br>Reviewed in RC-014: Go | pending |
+| 2026-11-19 | Accepted | Jens Tirsvad Nielsen | S01 | Initial version<br>Reviewed in RC-014: Go | [b31f4b3] |
 
 ---
 
@@ -61,3 +61,4 @@ A Game exists from `startGame` until the Result has been shown. A new `startGame
 [UC-001]: ./uc.md
 [DM-001]: ../../domain-model.md
 [OC-001]: ./oc.md
+[b31f4b3]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/084-assignment-tic-tac-toe/commit/b31f4b369e5e2228605a7241d1d616a68a5108ce
