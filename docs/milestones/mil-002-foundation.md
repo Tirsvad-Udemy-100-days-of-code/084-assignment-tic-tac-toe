@@ -12,7 +12,7 @@
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
 | 2026-11-19 | Deprecated | Jens Tirsvad Nielsen | S01 | Initial version<br>Reviewed in RC-005: Go | [b31f4b3] |
-| 2026-11-19 | Accepted | Jens Tirsvad Nielsen | S01 | Go/No-Go criterion 9 names the files the framework supplies and the prescribed ignore line<br>Reviewed in RC-020: Go | pending |
+| 2026-11-19 | Accepted | Jens Tirsvad Nielsen | S01 | Go/No-Go criterion 9 names the files the framework supplies and the prescribed ignore line<br>Reviewed in RC-020: Go | [c7e3d42] |
 
 ---
 
@@ -77,3 +77,4 @@ A repository with `pyproject.toml`, a Python `.gitignore`, `.editorconfig`, `.en
 
 [BC-001]: ../business-case.md
 [b31f4b3]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/084-assignment-tic-tac-toe/commit/b31f4b369e5e2228605a7241d1d616a68a5108ce
+[c7e3d42]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/084-assignment-tic-tac-toe/commit/c7e3d42d922a2ed8db7d7a794ed7dc52ab03dc91
